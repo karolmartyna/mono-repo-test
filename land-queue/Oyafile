@@ -1,7 +1,10 @@
 Project: monorepo
 
 install:
-    pip install -r requirements.txt
+    poetry install
+
+install_prod:
+    poetry install --no-dev
 
 start:
     python main.py

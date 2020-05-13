@@ -42,8 +42,19 @@ App can be to one repo or all repositories where user is admin.
 
 - [Oya](https://oya.sh/)
 - Python 3.7.5 + pyenv
+- [Poetry](https://python-poetry.org/docs/#osx-linux-bashonwindows-install-instructions)
 - Flask
 - PyGithub
+
+## Poetry how-to
+Poetry is neat dependency manager for python.
+1. Install poetry (preferably globally): `curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python`
+2. Install all dependencies: `poetry install`
+3. Install production dependencies: `poetry install --no-dev`
+
+4. Add dependency: `poetry add requests`
+5. Add dev dependency `poetry add --dev black`
+6. Remove dependency `poetry remove requests`
 
 ## Setup
 
