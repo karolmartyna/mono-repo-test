@@ -11,3 +11,6 @@ start:
 
 deploy:
     gcloud app deploy 
+
+lint:
+    black .

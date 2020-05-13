@@ -60,3 +60,5 @@ Poetry is neat dependency manager for python.
 
         $ oya run install  # install dependecies
         $ oya run start    # start project
+
+        $ oya run lint     # run code formatter
