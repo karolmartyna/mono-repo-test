@@ -11,6 +11,4 @@ automatic_scaling:
 env_variables:
   GH_APP_SLUG: "land-queue-test-app"
   GH_APP_ID: "64638"
-  GH_APP_KEY: "-----BEGIN RSA PRIVATE KEY-----
-Content of PEM file
------END RSA PRIVATE KEY-----"
+  GH_APP_KEY: "-----BEGIN RSA PRIVATE KEY-----\nContent of PEM file\n-----END RSA PRIVATE KEY-----"
