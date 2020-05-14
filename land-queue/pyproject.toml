@@ -11,6 +11,7 @@ PyGithub = "1.51"
 jwt = "1.0.0"
 requests = "^2.23.0"
 ipython = "^7.14.0"
+pytest = "^5.4.2"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
