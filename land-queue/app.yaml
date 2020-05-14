@@ -1,0 +1,16 @@
+runtime: python38
+instance_class: F1
+
+inbound_services:
+  - warmup
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 1
+
+env_variables:
+  GH_APP_SLUG: "land-queue-test-app"
+  GH_APP_ID: "64638"
+  GH_APP_KEY: "-----BEGIN RSA PRIVATE KEY-----
+Content of PEM file
+-----END RSA PRIVATE KEY-----"

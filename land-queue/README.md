@@ -1,4 +1,10 @@
-# monorepo
+# Land Queue
+
+# Environment
+
+        $ export GH_APP_SLUG="land-queue-test-app"
+        $ export GH_APP_ID="64638"
+        $ export GH_APP_KEY="<key here>"
 
 # Github Integration
 
@@ -10,7 +16,7 @@ In order to get/update Github repository data we need a Github Application.
 - Setup Application.
 
 ```
-Name: MonorepoApp
+Name: Land Queue App
 Homepage URL: https://localhost:5000
 Webhook URL: https://20fbc45a.ngrok.io/webhooks
 Permissions:
@@ -20,13 +26,13 @@ X PullRequests
 ```
 
 - Generate private key for App. (TODO: Store it, config)
-- Save APP_ID in app config (TODO: for now in app.py)
+- Save APP_SLUG (you can find it in APP url ex. land-queue-app) in app config (TODO: for now in app.py)
 
 ## Install app
 
 App can be to one repo or all repositories where user is admin.
 
-- Go to [MonorepoApp](https://github.com/settings/apps) -> Install App.
+- Go to [Land Queue App](https://github.com/settings/apps) -> Install App.
 - Pick account with admin privileges for target repostory.
 - Pick repository and Allow access.
 
