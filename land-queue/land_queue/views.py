@@ -15,12 +15,6 @@ WEBHOOK_EVENT_HANDLERS = {
     "pull_request": PullRequestHandler(Config),
 }
 
-WEBHOOK_EVENT_HANDLERS = {
-    "installation": InstallationHandler(),
-    "integration_installation": InstallationHandler(),
-    "pull_request": PullRequestHandler(Config),
-}
-
 
 @views.route("/webhooks", methods=["POST"])
 def webhooks():
