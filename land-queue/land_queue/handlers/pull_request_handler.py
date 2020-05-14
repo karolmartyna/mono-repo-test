@@ -20,10 +20,10 @@ def jwt_token(config):
 
 def fetch_cred(installation_id, jwt):
     headers = {
-        'Authorization': 'Bearer ' + jwt,
+        'Authorization': f'Bearer {jwt}',
         'Accept': 'application/vnd.github.machine-man-preview+json'
     }
-    url = 'https://api.github.com/app/installations/%s/access_tokens' % installation_id
+    url = f'https://api.github.com/app/installations/{installation_id}/access_tokens'
     response = requests.post(url, headers=headers)
     return json.loads(response.content)
 
