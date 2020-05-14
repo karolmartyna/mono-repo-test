@@ -9,8 +9,11 @@ install:
 start:
     python main.py
 
+lint:
+    black .
+
 deploy:
     gcloud app deploy 
 
-lint:
-    black .
+logs:
+    gcloud app logs tail -s default
