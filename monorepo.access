@@ -1,2 +1,2 @@
-/front-end	someone@test.com
-/		nobody@test.com
+/front-end/*	someone@test.com
+/*		nobody@test.com
