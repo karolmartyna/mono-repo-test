@@ -1,4 +1,4 @@
 {
-    "phabricator.uri": "http://phab-test.com:80",
-    "phlq.uri": "http://phab-test.com:5000"
+    "phabricator.uri": "http://phab-test.local:80",
+    "phlq.uri": "http://phab-test.local:5000"
 }
